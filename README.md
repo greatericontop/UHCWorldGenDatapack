@@ -13,9 +13,6 @@ If breaking changes happen, please make an issue and I will try to update it!
 - Increased frequency of small caves
 - Less extreme mountains and hills
 - World bottom moved to -32 instead of -64
-
-Coming soon:
-
-- Ore generation customization
+- Rebalanced generation of ores (you can further customize this yourself too)
 
 See [`FEATURES.md`](./FEATURES.md) for a full list of features and how to customize them.
