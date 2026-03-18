@@ -82,7 +82,18 @@ The settings are located in both `worldgen/configured_feature` and `worldgen/pla
 
 **Iron**
 
-WIP
+- Iron normal
+  - `configured_feature/ore_iron.json`, `placed_feature/ore_iron_middle.json`
+  - Reduced air exposure: 50% (increased from 0%)
+  - Size: 10 (increased from 9)
+  - Count: 20 (increased from 10)
+  - Height range: trapezoid from -24 to 56 (unchanged)
+- Iron small
+  - `configured_feature/ore_iron_small.json`, `placed_feature/ore_iron_small.json`
+  - Reduced air exposure: 50% (increased from 0%)
+  - Size: 4 (unchanged)
+  - Count: 20 (increased from 10)
+  - Height range: uniform from 0 to 72 (unchanged)
 
 
 
