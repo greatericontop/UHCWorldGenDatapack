@@ -69,7 +69,22 @@ The settings are located in both `worldgen/configured_feature` and `worldgen/pla
 
 **Gold**
 
-TODO
+- Gold buried
+  - `configured_feature/ore_gold_buried.json`, `placed_feature/ore_gold.json`
+  - Reduced air exposure: 60% (increased from 50%)
+  - Size: 9 (unchanged)
+  - Count: 4 (unchanged)
+  - Height range: trapezoid -32 to 32 (instead of trapezoid -64 to 32)
+- Gold lower
+  - `configured_feature/ore_gold_buried.json` (same file), `placed_feature/ore_gold_lower.json`
+  - I have this one disabled (by virtue of it spawning below the world height), but you can edit the config if you'd like.
+- Badlands gold is in `configured_feature/ore_gold.json`, `placed_feature/ore_gold_extra.json`
+
+**Iron**
+
+WIP
+
+
 
 ## Reducing size of cheese caves
 
