@@ -105,6 +105,19 @@ The settings are located in both `worldgen/configured_feature` and `worldgen/pla
   - Height range: trapezoid from -32 to 32 (unchanged)
 - There's also a lapis buried but I didn't change anything there
 
+**Redstone**
+
+- Redstone (normal and lower)
+  - `configured_feature/ore_redstone.json`, `placed_feature/ore_redstone.json`, `placed_feature/ore_redstone_lower.json`
+  - Reduced air exposure: 60% (increased from 0%)
+  - Size: 8 (unchanged)
+  - Normal
+    - Count: 7 (increased from 4)
+    - Height range: uniform from -32 to 15 (instead of uniform from -64 to 15) 
+  - Lower
+    - Count: 14 (increased from 8)
+    - Height range: trapezoid from -64 to 0 (triangle from -32 to 0) (instead of trapezoid from -96 to -32)
+
 
 ## Reducing size of cheese caves
 
