@@ -95,6 +95,15 @@ The settings are located in both `worldgen/configured_feature` and `worldgen/pla
   - Count: 20 (increased from 10)
   - Height range: uniform from 0 to 72 (unchanged)
 
+**Lapis**
+
+- Lapis normal
+  - `configured_feature/ore_lapis.json`, `placed_feature/ore_lapis.json`
+  - Reduced air exposure: 30% (increased from 0%)
+  - Size: 7 (unchanged)
+  - Count: 4 (increased from 2)
+  - Height range: trapezoid from -32 to 32 (unchanged)
+- There's also a lapis buried but I didn't change anything there
 
 
 ## Reducing size of cheese caves
