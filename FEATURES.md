@@ -44,7 +44,7 @@ The settings are located in both `worldgen/configured_feature` and `worldgen/pla
   - `configured_feature/ore_diamond_buried.json`, `placed_feature/ore_diamond_buried.json`
   - Reduced air exposure: 100% (unchanged)
   - Size: 8 (unchanged)
-  - Count: 4 (unchanged)
+  - Count: 3 (decreased from 4)
   - Height range
     - Old: trapezopid from -80 to +80 above bottom, the trapezoid distribution basically is a triangle with lowest at the ends and highest in the middle, but in this case the middle is the bottom of the world, so it's just the top half of the triangle where there are more diamonds the deeper you go
     - New: trapezoid from -48 to +48 above bottom for -32 world height
@@ -52,13 +52,13 @@ The settings are located in both `worldgen/configured_feature` and `worldgen/pla
   - `configured_feature/ore_diamond_small.json`, `placed_feature/ore_diamond.json` (don't ask why it's different)
   - Reduced air exposure: 60% (increased from 50%)
   - Size: 4 (unchanged)
-  - Count: 7 (unchanged)
+  - Count: 3 (decreased from 7)
   - Height range: changed trapezoid, see above
 - Diamond medium
   - `configured_feature/ore_diamond_medium.json`, `placed_feature/ore_diamond_medium.json`
   - Reduced air exposure: 60% (increased from 50%)
   - Size: 8 (unchanged)
-  - Count: 4 (increased from 2)
+  - Count: 2 (unchanged)
   - Height range: uniform from -32 to -4 (instead of uniform from -64 to -4)
 - Diamond large
   - `configured_feature/ore_diamond_large.json`, `placed_feature/ore_diamond_large.json`
